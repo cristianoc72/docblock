@@ -26,5 +26,5 @@ jobs:
       - name: Deploy api documentation site
         uses: peaceiris/actions-gh-pages@v2
         env:
-          personal_token: ${{ secrets.DOCBLOCK_TOKEN }}
-          publish_dir: ./api
+          PERSONAL_TOKEN: ${{ secrets.DOCBLOCK_TOKEN }}
+          PUBLISH_DIR: ./api
